@@ -1,0 +1,245 @@
+.thumbnail{
+    width: 100%;    
+}
+
+.thumbnail-row{
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.video-title{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.video-link{
+    text-decoration: none;
+    color: black;
+}
+
+.YouTube .channel-link{ 
+    text-decoration: none;
+    color: inherit;
+}
+
+.video-info{
+    padding-left: 50px;
+}
+
+
+.profile-picture{
+    width: 36px;
+    border-radius: 50px;
+}
+
+.video-author,  
+.video-stats{
+    font-size: 12px;
+    color: rgb(96,96,96);
+}
+.video-author{
+    margin-bottom: 4px;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
+@media (max-width: 750px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px){
+    .video-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.video-time{
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+}
+
+.profile-picture-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .channel-tooltip {
+    background-color: white;
+    width: 200px;
+    padding: 12px 12px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    position: absolute;
+    top: 55px;
+    z-index: 3;
+  
+    opacity: 0;
+    pointer-events: none;
+  
+    display: flex;
+    align-items: center;
+    transition: opacity 0.15s;
+  }
+  
+  .profile-picture-container:hover .channel-tooltip {
+    opacity: 1;
+  }
+  
+  .channel-tooltip-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 8px;
+  }
+  
+  .channel-tooltip-name {
+    font-family: Roboto, Arial;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  
+  .channel-tooltip-stats {
+    font-family: Roboto, Arial;
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+  }
+
+  .subscribe{
+    background-color: black;
+    margin-left: 40px;
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+
+  .channel-picture{
+    padding: 0;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    column-gap: 0px;
+    row-gap: 0px;
+  }
+
+  .video-info-grid{
+    display:grid;
+    
+}
+
+.video-title-videopage{
+    font-family: Roboto, Arial;
+    padding-left: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.video-author-videopage{
+    font-family: Roboto, Arial;
+    padding-left: 50px;
+    font-size: 12px;
+    color: rgb(96,96,96);
+}
+.video-author-sidebar{
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    color: rgb(96,96,96);
+}
+
+.video-stats-videopage{
+    font-family: Roboto, Arial;
+    padding-left: 50px;
+    font-size: 12px;
+    color: rgb(96,96,96);
+}
+
+.like{
+    background-color: white;
+    margin-left: 800px;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.dislike{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.like-icon{
+    height: 24px;
+}
+
+.dislike-icon{
+    height: 24px;
+}
+
+.sidebar-videopage{
+    background-color: white;
+    color: white;
+    height: 1000px;
+    width: 485px;
+    float: right;
+    
+}
+
+.video-author-videopage .channel-link{ 
+    text-decoration: none;
+    color: inherit;
+}
+
+.thumbnail-videopage{
+    width: 50%;
+    position: relative;
+}
+
+.video-time-videopage{
+    position: absolute;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    margin-right: 245px;
+}
+
+.video-info-videopage{
+    margin-left: 265px;
+    ;
+}
+
+
+
+
